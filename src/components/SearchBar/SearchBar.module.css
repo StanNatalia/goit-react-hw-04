@@ -1,4 +1,4 @@
-header {
+.header {
   background: linear-gradient(to right, black, rgb(29, 29, 29));
   padding: 20px;
   box-shadow: 0 2px 4px rgba(255, 254, 254, 0.551);
@@ -11,12 +11,12 @@ header {
   width: 100%;
 }
 
-form {
+.form {
   display: flex;
   flex-direction: row;
   gap: 40px;
 }
-input {
+.input {
   width: 250px;
   padding: 0 15px;
   border: 0;
@@ -24,7 +24,7 @@ input {
   padding-left: 15px;
   height: 30px;
 }
-button {
+.button {
   width: 120px;
   height: 30px;
   background-color: rgb(255, 30, 30);

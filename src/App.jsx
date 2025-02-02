@@ -15,7 +15,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);
   const [query, setQuery] = useState("");
-  const [page, setPage] = useState(0);
+  const [page, setPage] = useState(1);
   const [perPage] = useState(12);
   const [isVisible, setIsVisible] = useState(false);
   const [totalPages, setTotalPages] = useState(0);
