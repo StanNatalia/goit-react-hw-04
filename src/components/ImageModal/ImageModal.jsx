@@ -1,4 +1,5 @@
 import Modal from "react-modal";
+import { IoIosCloseCircleOutline } from "react-icons/io";
 
 const customStyles = {
   content: {
@@ -32,13 +33,11 @@ export default function ImageModal({ modalIsOpen, closeModal, src, alt }) {
           background: "transparent",
           border: "none",
           color: "#fff",
-          fontSize: "50px",
+          fontSize: "30px",
           cursor: "pointer",
-          width: "0",
-          height: "0",
         }}
       >
-        &times; {/* Символ для закрытия (X) */}
+        <IoIosCloseCircleOutline />
       </button>
       <img
         src={src}
@@ -48,7 +47,6 @@ export default function ImageModal({ modalIsOpen, closeModal, src, alt }) {
           maxHeight: "80vh",
           display: "block",
           margin: "0 auto",
-          //   position: "fixed",
         }}
       />
     </Modal>
