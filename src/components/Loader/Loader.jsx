@@ -1,9 +1,8 @@
 import { Audio } from "react-loader-spinner";
-import css from "./Loader.module.css";
 
 const Loader = ({ isLoading }) => {
   return (
-    <div className={css.wrapper}>
+    <div>
       {isLoading && (
         <Audio
           height="80"
