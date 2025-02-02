@@ -1,20 +1,3 @@
-// import axios from "axios";
-
-// const MY_ID = "HrlTSFH7Qu924M-r-T_v2q005msp5YG_HUCnt_RjYeI";
-// const fetchPhotos = async (query, page, perPage) => {
-//   const response = await axios.get(
-//     `https://api.unsplash.com/search/photos?query=${query}&page=${page}$per_page=12`,
-//     {
-//       headers: {
-//         Authorization: `Client-ID ${MY_ID}`,
-//       },
-//     }
-//   );
-//   return response.data.results;
-// };
-
-// export default fetchPhotos;
-
 import axios from "axios";
 
 const API_KEY = "HrlTSFH7Qu924M-r-T_v2q005msp5YG_HUCnt_RjYeI";
